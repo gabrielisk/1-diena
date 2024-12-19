@@ -301,18 +301,16 @@ Lorem, ipsum dolor.
     <table border="1">
     <tr>
         <td colspan="3">Lorem, ipsum.</td>
-        <td colspan="">Lorem ipsum. </td>
+        <td rowspan="2">Lorem ipsum. </td>
 
     </tr>
     <tr>
         <td>Lorem, ipsum.</td>
         <td>Lorem, ipsum.</td>
         <td>Lorem, ipsum.</td>
-        <td>Lorem, ipsum.</td>
     </tr>
     <tr>
-        <td>Lorem, ipsum.</td>
-        <td>Lorem, ipsum.</td>
+        <td colspan="2">Lorem, ipsum.</td>
         <td>Lorem, ipsum.</td>
         <td>Lorem, ipsum.</td>
     </tr>
@@ -325,6 +323,36 @@ Lorem, ipsum dolor.
     </table>
     <br>
     <br>
+    <table border="1">
+        <tr>
+            <td rowspan="2">Lorem ipsum dolor sit amet.</td>
+            <td colspan="4">Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Lorem ipsum dolor sit amet.</td>
+            <td colspan="4">Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+    </table>
+    <br>
+    <br>
     <br>
     <br>
     <br>
@@ -334,7 +362,7 @@ Lorem, ipsum dolor.
 
 <table border="1">
     <tr>
-        <td rowspan="3" style="width: 240px;"> 
+        <td valign="top"rowspan="4" style="width: 250px;"> 
             <h3>Paskutiniai įrašai</h3>
 
         <ul>
@@ -345,16 +373,51 @@ Lorem, ipsum dolor.
         </td>
     </tr>
     <tr>
-        <td> <img src="paveiksliukai/pauksciai.jpg/" width="150px" alt="pauksciai"></td>
-        <td><H3>Naujiena #1</H3>
-        <p>Lorem ipsum, dolor sit amet conse
-        </p>
-        <br>
-    <a href="#">Skaityti plačiau</a>
-</td>
+        <td>
+            <table>
+                <tr>
+                    <td rowspan="3">
+                        <img src="https://storage.googleapis.com/pod_public/1300/234331.jpg" width="150" height="200" alt="Nuotrauka">
+                    </td>
+                    <td>Naujiena #1</td>
+                </tr>
+                <tr><td>Lorem ipsum dolor sit amet consectetur.
+                </td></tr>
+                <tr><td><a href="#">Skaityti plačiau</a></td></tr>
+            </table>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td rowspan="3">
+                                <img src="https://storage.googleapis.com/pod_public/1300/234331.jpg" width="150" height="200" alt="Nuotrauka">
+                            </td>
+                            <td>Naujiena #2</td>
+                        </tr>
+                        <tr><td>Lorem ipsum dolor sit amet consectetur.
+                        </td></tr>
+                        <tr><td><a href="#">Skaityti plačiau</a></td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td rowspan="3">
+                                <img src="https://storage.googleapis.com/pod_public/1300/234331.jpg" width="150" height="200" alt="Nuotrauka">
+                            </td>
+                            <td>Naujiena #3</td>
+                        </tr>
+                        <tr><td>Lorem ipsum dolor sit amet consectetur.
+                        </td></tr>
+                        <tr><td><a href="#">Skaityti plačiau</a></td></tr>
+                    </table>
+                </td>
+            </tr>
+        </td>
     </tr>
-        
-    
 </table>
+
 </body>
 </html>
