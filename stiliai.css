@@ -29,12 +29,13 @@ img{
     height: 200px;
 
 }
-ul li {list-style-type: square;}
-ol li{list-style-type: upper-roman;}
+ul > li {list-style-type: square;}
+ol > li{list-style-type: upper-roman;}
 ul.stilizuotassarasas li{list-style-type: none;}
 
 ul.stilizuotassarasas li::before {
-    content: '\2664';
-    color: red;
-
-}
+    content: '\2665';
+    color: red;}
+    ul.saraso-elementai li {
+        list-style-type: none;
+    border-bottom: 2px solid silver;}
