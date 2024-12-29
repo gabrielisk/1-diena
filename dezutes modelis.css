@@ -1,0 +1,35 @@
+body{background-color: orange;}
+div{
+    background-color: white;
+    max-width: 80%;
+    margin: 5em auto;
+}
+#pirmas {
+    border: 12px solid green;
+    box-shadow: 5px 5px 15px black;
+}
+#antras {
+    padding: 5em ;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);    
+
+}
+#trecias {
+    padding: 5em 0;
+    border-bottom: 10px solid green;
+    border-right: 15px dashed pink;
+}
+#ketvirtas {
+    padding: 0 5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+#penktas {
+    padding: 0 0 5em;
+    border-left: 10px dashed cyan;
+}
+#penktas ul li{display: inline-block;}
+#penktas form {width: 500px;
+    padding: 1em;}
+#penktas form input {display: block;
+margin-top: 10px;}

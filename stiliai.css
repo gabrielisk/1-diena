@@ -15,4 +15,27 @@ h1,h2,h3,h4 {color: rgba(0, 0, 0, 0.2)}
         
         a{color: purple;}
         :hover{color: #2d383a;}
-        
+
+p.paragrafas{size: 1.5em;
+    text-align: right;
+    font-family: Verdana, Geneva, sans-serif;
+font-style: italic;}
+a{font-weight: 300;
+text-decoration: none;}
+table {text-align: center;
+font-size: 1.8em;}
+li{text-transform: lowercase;}
+img{
+    height: 200px;
+
+}
+ul > li {list-style-type: square;}
+ol > li{list-style-type: upper-roman;}
+ul.stilizuotassarasas li{list-style-type: none;}
+
+ul.stilizuotassarasas li::before {
+    content: '\2665';
+    color: red;}
+    ul.saraso-elementai li {
+        list-style-type: none;
+    border-bottom: 2px solid silver;}

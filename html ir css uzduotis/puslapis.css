@@ -1,0 +1,42 @@
+table {margin: auto;}
+h1,h2{opacity: 50%;}
+a{text-decoration: none;}
+
+
+.navi {
+    background-color: orange;
+    text-align: center;
+}
+.prisijungimas {text-align:left;
+    background-color:lightgoldenrodyellow;
+}
+ul li:nth-child(2) {
+    color: red;
+}
+ol li:nth-child(3) {
+    color: red;
+}
+.straipsniai {
+    margin: auto;
+    text-align: left ;    
+    background-color: lightgoldenrodyellow;
+}
+.straipsniai h2 {
+    opacity: 100;
+    color: darkgreen;
+}
+.populiarus {
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+}
+img {
+    width: 200px;
+height: 150px;}
+.foot {
+    background-color: orange;
+    text-align: center;
+    padding-block: 50px;
+}
+input {
+    background-color: lightgoldenrodyellow;
+}
