@@ -1,0 +1,26 @@
+.flexcolumn {display: flex;
+flex-direction: column;}
+.flexcolumn>div:nth-child(odd) { background-color: orange;
+}
+.flexcolumn>div:nth-child(even) {background-color: red;}
+
+
+.flexcolumn>div:first-child {display: flex;}
+.flexcolumn>div:nth-child(2) {display:flex;justify-content: space-evenly;}
+.flexcolumn>div:nth-child(2) p {background: white;
+width: 30%;}
+.flexcolumn>div:nth-child(3) {display: flex;
+justify-content: center;}
+.flexcolumn>div:nth-child(3) p {
+    background-color: white;
+    width: 45%;
+    padding: 10px;
+}
+.flexcolumn>div:last-child {display: flex;
+justify-content: space-around;}
+.flexcolumn>div:last-child p {background: orange;
+    width: 20%;
+    padding: 20px;
+
+}
+
