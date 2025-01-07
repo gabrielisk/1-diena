@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header>div {
+    background-color: wheat;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+}
+ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.658);
+    box-shadow: 1px 1px 50px blueviolet inset;
+}
+div ul {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.text p {
+    text-align: center;
+}
+.text {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.165);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.blocks {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 15px 10px;
+    width: 30%;
+    margin: 5px;
+}
+.blocks:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 1px rgba(108, 15, 194, 0.938);
+    transition: all ease-out 0.5s;
+}
+.text2 {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text2 p {
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+footer>div {
+    background-color: wheat;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    header div {
+        display: flex;
+        flex-direction: column;
+    }
+    header div ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 70%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main .blocks {
+        width: 80%;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+
+
