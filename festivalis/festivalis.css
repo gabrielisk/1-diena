@@ -1,0 +1,315 @@
+header .container {
+    height: 120px;
+}
+
+header strong {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #222222;
+}
+
+header .nav-link {
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #222222;
+}
+
+.hero {
+    height: 880px;
+    background-image: url(/festivalis1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 94px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero h2 {
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 16px auto 43px;
+}
+
+.pirkti {
+border: none;
+width: 232px;
+height: 52px;
+background: #EB5757;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+margin-right: 21px;
+}
+
+.hero .atlikejai {
+border: none;
+width: 232px;
+height: 52px;
+background: #FFFFFF;
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #EB5757;
+}
+
+.article {
+height: 132px;
+background: #EB5757;
+}
+.article p {
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+padding: 39px auto;
+
+}
+
+.atlikejai h1 {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222222;
+}
+.atlikejai hr {
+text-align: center;
+width: 31px;
+height: 5px;
+background: #EB5757;
+}
+.atlikejai p {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #222222;
+}
+
+.atlikejas h2 {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222222;
+text-align: center;
+}
+.atlikejas p {
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #222222;
+}
+.galerija {
+background: rgba(235, 87, 87, 0.1);
+}
+.galerija h1 {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222222;
+}
+.galerija hr {
+    text-align: center;
+    width: 31px;
+    height: 5px;
+    background: #EB5757;
+    }
+.galerija p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    }
+.nuotraukos {
+    display: flex;             /* Naudojame flexbox */
+    flex-wrap: wrap;           /* Leidžiame elementams pereiti į kitą eilutę */
+    gap: 15px;                 /* Nustatome tarpą tarp nuotraukų */
+    justify-content: center;   /* Horizontaliai išcentrinti nuotraukas */
+}
+
+.nuotraukos div {
+    width: calc(20% - 15px);   /* Nustatome kiekvienos nuotraukos plotį taip, kad į eilutę tilptų 5 elementai (100% / 5 = 20%) */
+    box-sizing: border-box;    /* Kad būtų įtraukti ir tarpų dydžiai */
+}
+
+.nuotraukos img {
+    width: 100%;               /* Užtikrina, kad nuotraukos užpildys savo talpinantį div */
+    height: auto;              /* Išlaiko nuotraukos aspektą */
+}
+.bilietai h1 {
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    }
+.bilietai>hr {
+    text-align: center;
+    width: 31px;
+    height: 5px;
+    background: #EB5757;
+}
+.bilietai p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+}
+
+.kortele {
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+}
+
+.kortele h2 {
+font-family: 'Raleway'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #222222;
+}
+.kortele hr {
+height: 0px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.kortele p{
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #222222;
+max-width: 301px;
+}
+.kortele h3 {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 2px;
+color: #222222;
+}
+.kortele h3 span {
+font-family: 'Raleway'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 2px;
+color: #EB5757;
+}
+.kortele>button {
+border: none;
+width: 80%;
+height: 52px;
+background: #EB5757;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Open Sans' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+.location {
+height: 916px;
+background: rgba(235, 87, 87, 0.1);
+}
+.location h1 {
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    }
+.location>hr {
+    text-align: center;
+    width: 31px;
+    height: 5px;
+    background: #EB5757;
+}
+.location p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+}
+iframe {
+width: 80%;
+height: 443px;
+background: url(.png);
+}
