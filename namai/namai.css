@@ -1,0 +1,95 @@
+
+.border-violet {
+    border-color:#A18C9A !important;
+}
+
+header strong {
+font-family: 'Inter'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #32292F;
+}
+
+header ul {
+font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #32292F;
+}
+.pilkas {
+background: rgb(240,240,240);
+background: linear-gradient(90deg, rgba(240,240,240,1) 70%, rgba(255,255,255,1) 50%);
+}
+.pilkas h1 {
+font-family: 'Inter'sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 48px;
+line-height: 56px;
+color: #32292F;
+max-width: 432px;
+}
+.pilkas p {
+font-family: 'Inter'sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+color: #32292F;
+max-width: 432px;
+}
+.pilkas button {
+width: 116px;
+height: 48px;
+background-color: #32292F;
+font-family: 'Inter'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.antras h1 {
+font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #32292F;
+}
+
+.antras h2 {
+font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 40px;
+color: #32292F;
+}
+.antras p {
+font-family: 'Inter'sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+color: #32292F;
+}
+.antras button {
+box-sizing: border-box;
+width: 144px;
+height: 48px;
+border: 1px solid #32292F;
+}
+.tekstoblokas {
+    max-width: 408px;
+}
+
