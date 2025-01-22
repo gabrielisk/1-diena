@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+nav ul li {
+    display: inline;
+    padding: 30px;
+}
+
+main {
+    background-color: darkgreen;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main div {
+    padding: 10%;
+}
+
+main h1 {
+    font-weight: 900;
+}
+.pirmas {
+    border: 3px solid black;
+    height: 50px;
+    width: 48%;
+    background-color: rgb(91, 90, 90);
+    color: white;
+}
+.antras {
+    border: 3px solid black;
+    height: 50px;
+    width: 48%;
+    background-color: darkgreen;
+    color: black;
+}
+.hero {
+    background-color: aqua;
+}
+.hero p { 
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+.blokas {
+    margin: 0 auto;
+    background-color: wheat;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.blokas>div {
+    background-color: white;
+    padding: 20px;
+    width: calc(33.3% - 60px);
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+footer div { width: 33.3%;
+    padding: 20px;
+
+}
+
