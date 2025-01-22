@@ -83,3 +83,34 @@ footer div { width: 33.3%;
 
 }
 
+
+@media only screen and (max-width: 375px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  main>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .blokas {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .blokas>div {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  }
+
