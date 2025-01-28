@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+}
+header {
+font-family: 'Plus Jakarta Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #1B6BED;
+}
+.pagr {
+    text-decoration: underline;
+}
+.hero {
+    background-image: url(https://s3-alpha-sig.figma.com/img/3b43/b3ba/9fe8a2f8cbf05ee6d21002fe5d546eec?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HZYBNbRYnVHnaSPGG3TcSCC8cxeqHaVXHUonnfiyy2li~HfGrf3-2gYLQPdI7nNzol4IAZSFvZnJfwuCwixLsR0XGpptgTdEfk9TfxJ2XnEgFx15G7bLZx5I6VqvpMFQY4dOtjElYB56vAfAgM9PZRZtc67dgWE8xSmJIBe~XpCgCuTPDkiwV7pGugiNamtw4KhjoWIjZ7vNwgTt37zI8nJB7Tl~Wj2qLxjENhP~xV~CcAlBvjKy4dkdvOmNd02Xach9FZCTY-d~ZcnY4~zbhUMJDPnjQdJlK4UadTP7gbdZ-5lAbyA5vRlXSd2~nWbAv805Kfpzde8ek56DSUE64Q__);
+    width: 100%;
+    height: 931px;
+    background-position: center;
+    position: relative;
+}
+.hero h1 {
+font-family: 'Plus Jakarta Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 113px;
+color: #FFFFFF;
+}
+.hero h2 {
+font-family: 'Plus Jakarta Sans' sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 45px;
+color: #FFFFFF;
+margin: 40px 0;
+}
+.hero button {
+width: 215px;
+height: 48px;
+background: linear-gradient(180deg, #00D4E4 -40.5%, #1F59EE 97.28%);
+border-radius: 24px;
+font-family: 'Plus Jakarta Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+}
+.hero svg {
+    position: absolute; /* Pakeičiam pozicionavimą į absoliutų */
+    bottom: 0; /* Nustatome, kad būtų apačioje */
+    right: 0; /* Nustatome, kad būtų dešinėje */
+    max-width: 100%; /* Užtikriname, kad SVG neperžengtų tėvų konteinerio */
+    height: auto; /* Leiskite aukščiui prisitaikyti prie pločio */
+  }
+
+.article>svg {
+    width: 20%;
+}
+.map svg {
+    max-width: 100%;
+}
+.map h2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #A6A6A6;
+}
+.map p{    
+font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 136.19%;
+color: #666666;
+text-transform: uppercase;
+}
+.info {
+font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 148.19%;
+color: #888888;
+margin-bottom: 99px;
+}
+.daugiau {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 15px 34px;
+gap: 30px;
+margin-bottom: 20px;
+width: 232px;
+height: 49px;
+font-family: 'Open Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+background: linear-gradient(180deg, #00D4E4 -40.5%, #1F59EE 97.28%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 2px solid rgb(0, 102, 255);
+border-radius: 24px;
+}
+
+
+.zemelapis {
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 15px 30px;
+gap: 10px;
+width: 183px;
+height: 50.31px;
+border-radius: 36px;
+font-family: 'Open Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+background: linear-gradient(180deg, #00D4E4 -40.5%, #1F59EE 97.28%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border: 2px solid rgb(0, 102, 255);
+border-radius: 24px;
+}
+
