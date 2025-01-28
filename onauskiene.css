@@ -1,0 +1,39 @@
+.main {
+    margin: 5% auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: gray;
+    padding-bottom: -50%;
+    background-position: top;
+    box-shadow: 1px 1px 15px 1px black
+}
+.main:hover {
+    box-shadow: 1px 1px 15px 4px blue;
+    transition: all ease-in 0.5s;
+
+}
+.photo img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.info {
+    background-color: white;
+    position: relative;
+    display: inline;
+    padding: 1%;
+    top: -2%;
+}
+.antras {
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    margin: -23.4px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.tekstas {
+    background-color: wheat;
+    padding: 20px;
+}

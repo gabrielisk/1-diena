@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e2e1e1;
+    padding-top: 100px;
+}
+
+.blokas {
+    padding: 0px;
+    width: 276px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.blokas img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.blokas .date {
+    width: 56px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(40, 41, 61, 0.04), 0px 1px 4px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #121212;
+    text-transform: uppercase;
+    padding-top: 6px;
+    position: relative;
+    top: -28px;
+    left: 200px;
+
+}
+
+.blokas .date strong {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #121212;
+}
+.blokas span {  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #959393;
+
+}
+.blokas .info-wrapper {
+    padding: 0 15px 0 15px;
+    position: relative;
+    top: -15px;
+}
+.blokas .info-wrapper .title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #121212;
+padding-top: 3px;
+
+}
+.blokas .info-wrapper .buttons {
+    padding-top: 15px;
+
+}
+.blokas .info-wrapper .buttons a {
+text-decoration: none;
+padding-right: 5px;
+}

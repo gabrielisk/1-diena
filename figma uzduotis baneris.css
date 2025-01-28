@@ -1,0 +1,113 @@
+body {background-color: black;
+    
+}
+
+
+.blokas {
+position: absolute;
+width: 675px;
+height: 355px;
+left: calc(50% - 675px/2 + 5.5px);
+top: calc(50% - 355px/2);
+background: rgba(34, 34, 37, 0.7);
+border-radius: 12px;
+}
+
+.tekstas {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 17px;
+
+position: absolute;
+width: 531px;
+height: 224px;
+left: calc(50% - 531px/2);
+top: calc(40% - 224px/2 - 0.5px);
+
+
+}
+.blokas h1 {
+width: 531px;
+height: 96px;
+font-family: 'inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 100%;
+display: flex;
+align-items: center;
+letter-spacing: 0.42px;
+color: #FFFFFF;
+}
+
+.blokas p {
+width: 525px;
+height: 52px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+
+}
+
+button {
+font-family:'inter';
+font-weight: 600;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+position: absolute;
+width: 170px;
+height: 42px;
+left: 70px;
+top: 300px;
+border: 2px solid #F17965;
+border-radius: 12px;
+}
+button:hover {
+font-family: 'inter';
+font-weight: 600;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+position: absolute;
+width: 170px;
+height: 42px;
+left: 70px;
+top: 300px;
+background: #F79090;
+border: 2px solid #F17965;
+color: white;
+border-radius: 12px;
+cursor: pointer;
+transition: all ease 0.5s;
+}
+.garsiakalbis {
+position: absolute;
+width: 150px;
+height: 150px;
+left: -50.01px;
+top: -150.84px;
+transform: rotate(12.68deg);
+}
+.zvaigzdes {
+position: absolute;
+width: 62px;
+height: 62px;
+left: 550px;
+top: 250px;
+}
