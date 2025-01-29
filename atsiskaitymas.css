@@ -1,0 +1,260 @@
+html, body, header {
+ margin: 0;
+ padding: 0;
+ background-color: #2B2B2B;
+}
+.navigacija ul{
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+}
+.navigacija .signup {
+width: 152px;
+height: 60px;
+background: #A259FF;
+border-radius: 20px;
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.hero h1 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 67px;
+line-height: 110%;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+width: 80%;
+}
+
+.hero p {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 90%;
+}
+.hero button {
+padding: 0px 50px;
+width: 224px;
+height: 60px;
+background: #A259FF;
+border-radius: 20px;
+margin: 30px 0;
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+.hero h3{
+font-family: 'Space Mono'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 140%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero img {
+width: 510px;
+height: 401px;
+border-radius: 20px 20px 0px 0px;
+max-width: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+object-fit: cover;
+}
+.statistika {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    white-space: nowrap;
+}
+.antraste {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+height: 109px;
+background: #3B3B3B;
+border-radius: 0px 0px 20px 20px;
+max-height: 100%;
+max-width: 100%;
+padding: 22px 20px;
+}
+.antraste h2 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.antraste>p {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.trending, .creators, .categories h1 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+.trending, .creators p {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+.trending img {
+gap: 15px;
+width: 330px;
+height: 330px;
+border-radius: 20px;
+margin-bottom: 15px;
+max-width: 100%;
+object-fit: cover;
+}
+.trending h2 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.trending span {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+text-transform: none;
+}
+.creators button {
+width: 247px;
+height: 60px;
+border: 2px solid #A259FF;
+border-radius: 20px;
+background-color: #2B2B2B;
+}
+.creators button>span {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+padding-left: 12px;
+}
+.profilis {
+width: 240px;
+height: 238px;
+background: #3B3B3B;
+border-radius: 20px;
+max-width: 100%;
+}
+.profilis>svg:first-child {
+display: flex;
+position: relative;
+top: 10px;
+left: 10px;
+}
+.profilis>svg:nth-child(2) {
+display: flex;
+position: relative;
+max-width: 100%;
+width: 100%;
+align-content: center;
+}
+.profilis h2 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.profilis p {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #858584;
+}
+.profilis>p>span {
+font-family: 'Space Mono'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+ }
+ .antraste2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #3B3B3B;
+padding: 20px 20px 25px;
+gap: 25px;
+width: 150px;
+height: 67px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.antraste2 h2 {
+font-family: 'Work Sans'sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.categories>img {
+    height: 240px;
+    width: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
