@@ -1,5 +1,6 @@
 body, html {
     margin: 0;
+    padding: 0;
 }
 header {
 font-family: 'Plus Jakarta Sans' sans-serif;
@@ -18,6 +19,8 @@ color: #1B6BED;
     height: 931px;
     background-position: center;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero h1 {
 font-family: 'Plus Jakarta Sans'sans-serif;
@@ -61,9 +64,12 @@ border: none;
 .article>svg {
     width: 20%;
 }
-.map svg {
-    max-width: 100%;
+.map {
+    position: relative;
+    margin: 125px auto;
+
 }
+
 .map h2 {
 font-family: 'Roboto';
 font-style: normal;
@@ -81,6 +87,7 @@ font-size: 14px;
 line-height: 136.19%;
 color: #666666;
 text-transform: uppercase;
+
 }
 .info {
 font-family: 'Roboto'sans-serif;
@@ -141,4 +148,148 @@ background-clip: text;
 border: 2px solid rgb(0, 102, 255);
 border-radius: 24px;
 }
+.dvaras1 {
+box-shadow: 0px 0px 20px rgba(122, 116, 116, 0.3);
+background-color: white;
+}
+.statula {
+position: absolute;
+left: 500px;
+width: 320px;
+height: 449.29px;
+filter: drop-shadow(-8px 8px 42px rgba(0, 0, 0, 0.25));
+border-radius: 15.5856px;
+object-fit: cover;
+max-width: 100%;
+max-height: auto;
+top:10%;
+left: 56%;
+max-width: 100%;
+z-index: 1;
+}
+.dvaras {
+    width: 70%;
 
+}
+.konturai svg {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    position: absolute;
+    height: auto;
+    right: -16%;
+    top: -10%;
+    z-index:-1;
+}
+.hero2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/fea8/1bde/d3bd0daf16f11bbd8f583b96605d33d4?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DD-jzp-p-fmO4iKswmTgK8mhCn4yErxBO9RyA3P3pgcH-yKU9eW90oLDD3iooIfJTR4UvJfLbe3rGIMGhHuPwQOkJRtVdZqu6Ti2jSigC-pgmhwvpFTR5HXqU~KZ-FowIEiIU70Pm-QBV~3gYmzcZGr8wucVqVifO3UafczsTuubMaoOnSyPlnWckjjTIkxKE1EXFwdRaa-TMAS~7tW5H6VfEkyalLqnwfIghHOAKz97MzJ2z0eILUtjrbm8-Mp9IEVmI4~SryLXj0KxxmqInHVQ3qBFD~9D2GdWQrLeZaG4IY68ZlEHcEY8YIf8Z4-MhebKfrsm9~sL86CblkgCvg__);
+    height: 852px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #94a05653;
+}
+.hero2>svg {
+    position: relative; /* Pakeičiam pozicionavimą į absoliutų */
+    bottom: 0; /* Nustatome, kad būtų apačioje */
+    left: -10px; /* Nustatome, kad būtų dešinėje */
+    max-width: 100%; /* Užtikriname, kad SVG neperžengtų tėvų konteinerio */
+    height: auto; /* Leiskite aukščiui prisitaikyti prie pločio */
+}
+.statistika {
+    background-color: white;
+}
+.statistika h1 {
+font-family: 'Plus Jakarta Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+color: #333333;
+padding-bottom: 45px;
+}
+.statistika p {
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #888888;
+}
+.statistika span {
+font-family: 'Plus Jakarta Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+
+background: linear-gradient(180deg, #00D4E4 -40.5%, #1F59EE 97.28%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.statistika h2 {
+font-family: 'Plus Jakarta Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #333333;
+}
+
+.rekomendacijos {
+    position: relative; /* Svarbu, kad konteineris būtų pozicionuojamas */
+  }
+  
+  .rekomendacijos svg {
+    position: absolute; /* Užtikrina, kad SVG bus pozicionuojamas atsižvelgiant į konteinerį */
+    top: 0; /* Nustatome atstumą nuo viršutinės krašto */
+    right: 0; /* Nustatome atstumą nuo dešiniojo krašto */
+    width: auto; /* Kad SVG neprapūstų */
+    height: auto; /* Kad SVG neprapūstų */
+  }
+  .rekomendacijos h1 {
+font-family: 'Plus Jakarta Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+color: #262020;
+  }
+  .nuotraukos img {
+    max-width: 100%;
+  }
+  .pilkas {
+    width: 100%;
+    height: 54px;
+    background-color: rgba(0, 0, 0, 0.646);
+    position: relative;
+    bottom: 54px;
+
+   
+  }
+  .pilkas span {
+    font-family: 'Plus Jakarta Sans'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136.19%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 16px;
+    height: 100%;
+    max-height: 100%;
+  }
+  .rekomendacijos svg:nth-child(3) {
+    position: relative; /* Užtikrina, kad SVG bus pozicionuojamas atsižvelgiant į konteinerį */
+    bottom: 0; /* Nustatome atstumą nuo viršutinės krašto */
+    left: -12px; /* Nustatome atstumą nuo dešiniojo krašto */
+    width: auto; /* Kad SVG neprapūstų */
+    height: auto; /* Kad SVG neprapūstų */
+  }
+  footer {
+height: 373px;
+background: #11224D;
+  }
