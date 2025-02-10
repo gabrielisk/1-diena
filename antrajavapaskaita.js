@@ -385,6 +385,88 @@ if (uzsakymai <= MaxPerDiena == true) {
 
 
 
+//SWITCH
+console.log ('\n', '\n', "SWITCH", '\n', '\n')
+
+//1
+ let numeris = 2
+
+
+switch(numeris) {
+   case (1): console.log ("Laimejote vandeni");break;
+   case (2): console.log ("Laimejote limonada");break;
+   case (3): console.log ("Laimejote arbata");break;
+   case (4): console.log ("Laimejote kava");break;
+   default: console.log ("Ivyko klaida");break;
+}
+
+//2
+
+let numeris1=1;
+let numeris2=2;
+let numeris3=3;
+
+switch (numeris1) {
+   case(1): console.log (numeris1+numeris2+numeris3);break;
+   case(2): console.log (numeris2*numeris3);break;
+   case(3): console.log (numeris1 ** 2);break;
+   default: console.log ("Tokio numerio nera,klaida")
+}
+
+//3
+
+let klaida = "Failas nerastas"
+
+switch(klaida) {
+   case ("ivesti ne visi duomenys"): console.log ("Truksta duomenu privalomuose laukeliuose, irasykite trukstamose vietose");break;
+   case ("Paveikslelis per didelis"): console.log ("Jusu ikeltas paveikslelis per didelis (max: 100mb). Ikelkite mazesni paveiksleli");break;
+   case ("Failas nerastas"): console.log ("Tokio failo duomenu bazeje nera!");break;
+   default: console.log ("Klaida!")
+}
+
+
+let menesis = 1;
+
+switch (menesis) {
+   case (12): 
+   case (1): 
+   case (2): 
+   return console.log ("Ziema"); break;
+
+   case (3): 
+   case (4): 
+   case (5): 
+   return console.log ("Pavasaris"); break;
+
+   case (6): 
+   case (7): 
+   case (8): 
+   return console.log ("Vasara"); break;
+
+   case (9): 
+   case (10): 
+   case (11): 
+   return console.log ("Ruduo"); break;
+   default: console.log ("Tokio menesio nera")
+}
+
+
+// Ciklai
+
+//for
+
+
+for (let z = 1; z <= 11; z++) {
+   console.log ("skaicius: ", z);
+}
+
+
+
+
+
+
+
+
 
 
 
