@@ -425,24 +425,21 @@ switch(klaida) {
 }
 
 
-let menesis = 1;
+let menesis = 15;
 
 switch (menesis) {
    case (12): 
    case (1): 
    case (2): 
    return console.log ("Ziema"); break;
-
    case (3): 
    case (4): 
    case (5): 
    return console.log ("Pavasaris"); break;
-
    case (6): 
    case (7): 
    case (8): 
    return console.log ("Vasara"); break;
-
    case (9): 
    case (10): 
    case (11): 
@@ -456,9 +453,53 @@ switch (menesis) {
 //for
 
 
-for (let z = 1; z <= 11; z++) {
+for (let z = 0; z <= 10; z++) {
    console.log ("skaicius: ", z);
 }
+
+console.log ()
+
+for (let w = 0; w <= 15; w+=2) {
+   console.log ("antra uzd: ", w);
+}
+console.log ()
+
+for (let e=1; e<20; e+=3) {
+   console.log ("trecia uzd: ", `[${e}]`)
+}
+
+console.log ()
+
+for (let r=1; r<=20; r++) {
+   if(r%4==0) {
+      console.log (r, "dalinasi is 4")
+   }
+}
+
+console.log ()
+
+let pradzia = 5;
+let pabaiga = 15;
+
+if (pradzia<pabaiga) {
+   for (let i=pradzia; pradzia<pabaiga; i++) {
+      console.log (i, "", i**2)
+   }
+}
+
+console.log ()
+
+/*pradzia = 4;
+pabaiga = 9;
+
+if (pradzia<pabaiga) {
+   for (let i=pradzia; i<=pabaiga; i++ ) {
+      if (i % 2 !== 0 || i % 8 === 0) {
+         console.log (i);
+      }
+      else console.log ("Klaida, pradzia didesne uz pabaiga")
+   }
+}*/
 
 
 
