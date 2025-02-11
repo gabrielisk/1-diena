@@ -478,28 +478,115 @@ for (let r=1; r<=20; r++) {
 
 console.log ()
 
+//5
+
 let pradzia = 5;
 let pabaiga = 15;
 
 if (pradzia<pabaiga) {
-   for (let i=pradzia; pradzia<pabaiga; i++) {
+   for (let i=pradzia; i<pabaiga; i++) {
       console.log (i, "", i**2)
    }
+} else {
+   console.log ("pradzia negali buti didesne uz pabaiga")
 }
 
 console.log ()
 
-/*pradzia = 4;
-pabaiga = 9;
+//6
+
+
+pradzia = 1;
+pabaiga = 15;
 
 if (pradzia<pabaiga) {
    for (let i=pradzia; i<=pabaiga; i++ ) {
       if (i % 2 !== 0 || i % 8 === 0) {
          console.log (i);
       }
-      else console.log ("Klaida, pradzia didesne uz pabaiga")
    }
-}*/
+}
+
+//7
+console.log ()
+
+
+let pirmassk= 5;
+let antrassk=8;
+let rezultaltas=0;
+
+for (i=0; i<antrassk; i++) {
+   rezultaltas += pirmassk
+}
+console.log (rezultaltas)
+
+//8
+console.log ()
+
+let suma = 0
+for (i=1; i<=100; i++) {
+   suma += i
+}
+console.log (`8 uzduoties suma: ${suma}`)
+
+//9
+console.log ()
+
+suma = 0
+for (i=20; i<=50; i++) {
+   if(i%2===0){
+   suma += i
+   }
+}
+console.log (`9 uzduoties suma: ${suma}`)
+
+//10
+console.log()
+
+suma=0;
+for (i=30; i<60; i++) {
+   if (i%2!==0) {
+      suma+=i
+   }
+}
+console.log (`10 uzduoties suma: ${suma}`)
+
+//11
+console.log()
+
+suma=0;
+for (i=1;i<1000;i++) {
+   if(i%3===0 || i%5===0) {
+      suma+=i
+   }
+}
+console.log(`11 uzduoties suma: ${suma}`)
+
+//12
+
+// "Write a program that prints the numbers from 1 to 100. But for multiples
+// of three print “Fizz” instead of the number and for the multiples of five
+// print “Buzz”. For numbers which are multiples of both three and five print
+
+// “FizzBuzz”."
+
+suma=0;
+
+for (let i=1;i<=100;i++) {
+   if (i % 3 === 0 && i % 5 === 0) {
+      console.log ("FizzBuzz");
+      continue;
+   } 
+   else if (i%3===0) {
+      console.log ("Fizz");
+      continue;
+   } 
+   else if (i%5===0) {
+      console.log ("Buzz");
+      continue;
+   } 
+   else {console.log (i)}
+}
 
 
 
