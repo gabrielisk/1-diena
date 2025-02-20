@@ -159,6 +159,14 @@ if (kintamasis === atvirksciai) {
 }
 
 
+console.log ("\n --------------13 uzd.\n")
+
+let masyvas1= [1,2,3,5,2]
+let masyvas2= [5,4,76,2,3]
+let masyvas3=[]
+
+
+
 
 
 
