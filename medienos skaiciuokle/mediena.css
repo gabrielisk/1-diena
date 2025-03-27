@@ -1,0 +1,46 @@
+.main {
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.duomenys {
+gap: 30px;
+}
+
+.duomenys form input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.results {
+    background-color: rgba(11, 181, 11, 0.811);
+    border-radius: 10px;
+    width: 100%;
+}
+#kaina {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+button {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.317);
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.135);
+}
