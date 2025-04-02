@@ -1,0 +1,9 @@
+.paslauga-info {
+    display: flex;
+    flex-direction: column; 
+    width: 20%; 
+}
+.paslauga-info h4 {
+    font-family: "montserrat",sans-serif;
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,6 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(195,85,34);
+  background: linear-gradient(0deg, rgba(195,85,34,1) 0%, rgba(255,193,58,1) 100%);
+}

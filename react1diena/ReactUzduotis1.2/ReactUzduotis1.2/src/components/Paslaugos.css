@@ -1,0 +1,15 @@
+.teikiamos-paslaugos {
+    color: blueviolet;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+}
+
+.paslaugos-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}

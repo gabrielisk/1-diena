@@ -1,0 +1,15 @@
+.paslaugos-wrapper {
+    background-color: rgb(126, 125, 122);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paslaugos-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: calc(100%-10px);
+    text-align: center;
+}
